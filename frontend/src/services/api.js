@@ -3,7 +3,7 @@ import axios from "axios";
 const api = axios.create({
   baseURL:
     process.env.REACT_APP_API_URL ||
-    "http://localhost:5000/api/peterson",
+    "https://peterson-solution1.vercel.app/api/peterson",
   headers: {
     "Content-Type": "application/json",
   },
